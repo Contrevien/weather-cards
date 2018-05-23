@@ -1,0 +1,42 @@
+.Card {
+    width: 170px;
+    height: 135px;
+    font-family: brandon-grotesque, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transform: scale(1);
+    border-radius: 10px;
+}
+
+.Card:hover{
+    transition: transform 0.2s ease;
+    transform: scale(1.03);
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.image {
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.max {
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    right: 20px;
+    top: 10px;
+}
+
+.min {
+    position: absolute;
+    font-size: 28px;
+    font-weight: bold;
+    right: 25px;
+    bottom: 20px;
+}
+ 
+ .white {fill:#FFFFFF}
+ .gray {fill:#E0E0E0}
+ .yellow {fill:#FFEB3B}
